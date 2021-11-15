@@ -11,3 +11,129 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.app {
+  height: 100vh;
+}
+                        /* Home page */
+/*forms*/            
+#home {
+  /* overflow-y: hidden;
+  overflow-x: hidden; */
+  align-items: center;
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+  height: 100vh;
+}
+ion-icon {
+  font-size: 12em;
+}
+
+#div1 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: fit-content;
+}
+#ellipse {
+  color: blue
+}
+
+#div2 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: fit-content;
+}
+.divSquare {
+  margin: 0 7em 0 0;
+}
+#square {
+  color: red
+}
+.divStar {
+  margin: 0 0 0 7em;
+}
+#star {
+  color: yellow
+}
+
+#div3 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  height: fit-content;
+}
+#triangle {
+  color: green
+}
+
+#audioDiv {
+  position: absolute;
+  bottom: 5%;
+  left: 20px;
+}
+#centralButton {
+  position: absolute;
+}
+/*text*/
+#edu, #ski, #tri, #sta {
+  position: absolute;
+}
+.title {
+  z-index: 1;
+  height:fit-content;
+}
+h1{
+  font-family: 'Merienda';
+}
+#edu, #ski, #pro, #con {
+  font-size: 24px;
+}
+#engDiv, #spaDiv {
+  display: flex !important;
+}
+#engDiv {
+  margin-bottom: 5px;
+}
+#engText, #spaText {
+  margin-left: 10px;
+}
+/*adding gradiant colors to SVG icons*/
+#icon-pen-gradient {
+  --color-stop: #C6FFDD;
+  --color-stop2: #FBD786;
+  --color-bot: #f7797d;
+}
+#icon-star-gradient {
+  --color-stop: #1a2a6c;
+  --color-stop2: #b21f1f;
+  --color-bot: #fdbb2d;
+}
+                        /* Education page */
+/*forms*/
+#edu {
+  display: flex;
+  width: 100%;
+}
+#image1 {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: flex-start;
+}
+#image2 {
+  display: flex;
+  height: 100vh;
+  align-items: flex-end;
+}
+#eduText {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+                        /* Skills page */
+/*forms*/
+#langIcons, #toolsIcons {
+  display: flex;
+}
